@@ -140,4 +140,5 @@ def run_spotify_etl():
     connection.close()
 
 
-run_spotify_etl()
+if __name__ == "__main__":
+    run_spotify_etl()
